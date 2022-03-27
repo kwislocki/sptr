@@ -44,7 +44,7 @@ for ele in queries:
         location_publisher = publisher['location']
         source = "vimeo"
 
-
+        # appending dictionary keys with each video
         vvs['uri'] = vid_id
         vvs['name'] = title
         vvs['publishedAt'] = date
